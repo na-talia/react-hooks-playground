@@ -13,7 +13,7 @@ const BackgroundColor = () => {
 
   return (
     <div
-      className={`w-screen h-screen ${color} flex flex-col items-center justify-center`}
+      className={`w-screen h-40 ${color} flex flex-col items-center justify-center`}
     >
       <h2>My background is {color === "bg-green-500" ? "Green" : "Blue"}</h2>
       <button onClick={changeColor}>Change color</button>
