@@ -2,6 +2,7 @@ import "./App.css";
 import BackgroundColor from "./BackgroundColor";
 import TextColor from "./TextColor";
 import AgreeDisagree from "./AgreeDisagree";
+import Counter from "./Counter";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <BackgroundColor />
       <TextColor />
       <AgreeDisagree />
+      <Counter />
     </div>
   );
 }
