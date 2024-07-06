@@ -6,7 +6,7 @@ const Counter = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setCount((count) => count + 1);
-    }, 3000);
+    }, 5000);
 
     // Clear the timeout if the component unmounts
     return () => clearTimeout(timer);
