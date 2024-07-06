@@ -23,7 +23,7 @@ const TextColor = () => {
   };
 
   return (
-    <div className="w-screen">
+    <div className="w-screen mt-10">
       <h2>{car.brand}</h2>
       <p>
         It's a <span className={`${car.bgColor}`}>{car.colorName}</span>{" "}
